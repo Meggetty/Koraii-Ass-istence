@@ -1,10 +1,8 @@
-from calendar import month
-from datetime import datetime
-import DateTime
-from playsound import playsound
-import time 
 
-#audio execute and text.
+import playsound
+from playsound import playsound
+
+#comandos de ejecucion de audio
 
 def welcoming():
     print("Hello, is nice to meet you.")
@@ -13,6 +11,7 @@ def welcoming():
 def leaving():
     print("I'll miss you. ") 
     playsound('./goodbye.mp3') 
+    
 
 def suddenlyquit():
     print("¿did I did something wrong?")
@@ -22,14 +21,7 @@ def easteregg():
     print("you are my best friend forever.")
     playsound('./easteregg.mp3')
 
-
-#date def
-
-
-
-
-
-#main
+#fuciones de interaccion que requieren del frontend
 def welcoming2():
     print("¿How can I help you?")
     
