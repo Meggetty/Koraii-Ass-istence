@@ -30,11 +30,19 @@ def credits():
 
 #interactive functions that needs frontend support
 def welcoming2():
-    print("¿How can I help you?")
+    while True:
+        print("So, ¿how can I help you?")
+    
+        x=input()
 
-    x=input()
-
-    if x=="leave":
+        if x=="leave":
             leaving()
+            break
+        elif x=="credits":
+         credits()
+        elif x=="By us...":
+            easteregg()
+        else: 
+            print("Sorry, ¿What did you said?")
 
     
