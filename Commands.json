@@ -1,0 +1,6 @@
+[
+	
+		{"Name": "Hi", "Mp3": "./Sounds/welcoming.mp3", "Msg": ""},
+		{"Name": "Leave", "Mp3": "./Sounds/goodbye.mp3", "Msg": "goodbye :)"},
+		{"Name": "Creddits", "Mp3": "./Sounds/easteregg.mp3", "Msg": "Creddits..."}
+]
