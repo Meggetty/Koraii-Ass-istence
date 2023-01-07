@@ -31,5 +31,3 @@ def PlayAudio(cmd:str):
     print(MSG)
     time.sleep(2)
     return ''
-
-    
